@@ -7,7 +7,7 @@ TEST(openFile, res) {
 	EXPECT_NE(fopen(direction, "r"), nullptr);
 }
 
-//тестирование функции чтения с файла
+//тестирование функции чтени с файла
 TEST(testReading, res) {
 	int matrix[maxSize][maxSize];
 	FILE* note = fopen(direction, "r");
