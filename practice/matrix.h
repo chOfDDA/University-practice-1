@@ -5,5 +5,5 @@
 int rows, columns;
 int matrix[maxSize][maxSize];
 
-void readMatrix(int matrix[maxSize][maxSize], FILE* note); //функция для чтения матрицы с файла
-void output(int matrix[maxSize][maxSize]); //функция для вывода матрицы
+void readMatrix(int matrix[maxSize][maxSize], FILE* note); //С„СѓРЅРєС†РёСЏ РґР»СЏ С‡С‚РµРЅРёСЏ РјР°С‚СЂРёС†С‹ СЃ С„Р°Р№Р»Р°
+void output(int matrix[maxSize][maxSize]); //С„СѓРЅРєС†РёСЏ РґР»СЏ РІС‹РІРѕРґР° РјР°С‚СЂРёС†С‹
