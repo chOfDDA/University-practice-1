@@ -2,12 +2,12 @@
 #include "..\practice\matrix.c"
 #define direction "C:/Users/User/source/repos/practice/matrixInfo.txt"
 
-//тестирование открытия файла
+//С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ РѕС‚РєСЂС‹С‚РёСЏ С„Р°Р№Р»Р°
 TEST(openFile, res) {
 	EXPECT_NE(fopen(direction, "r"), nullptr);
 }
 
-//тестирование функции чтени с файла
+//С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ С„СѓРЅРєС†РёРё С‡С‚РµРЅРёСЏ СЃ С„Р°Р№Р»Р°
 TEST(testReading, res) {
 	int matrix[maxSize][maxSize];
 	FILE* note = fopen(direction, "r");
